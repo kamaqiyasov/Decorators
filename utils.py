@@ -6,7 +6,7 @@ import os
 def logger(func_or_path=None):
 
     def __logger(old_function):
-        # @wraps(old_function)
+        @wraps(old_function)
         def new_function(*args, **kwargs):
             
             if isinstance(func_or_path, str) or None:
