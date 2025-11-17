@@ -9,7 +9,7 @@ def logger(func_or_path=None):
         @wraps(old_function)
         def new_function(*args, **kwargs):
             
-            if isinstance(func_or_path, str) or None:
+            if isinstance(func_or_path, str) or func_or_path is None:
                 filepath = func_or_path
             else: 
                 filepath = 'main.log'

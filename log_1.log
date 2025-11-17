@@ -1,4 +1,0 @@
-2025-11-14 18:57:10 hello_world args=() kwargs={} Hello World
-2025-11-14 18:57:10 summator args=(2, 2) kwargs={} 4
-2025-11-14 18:57:10 div args=(6, 2) kwargs={} 3.0
-2025-11-14 18:57:10 summator args=(4.3,) kwargs={'b': 2.2} 6.5
